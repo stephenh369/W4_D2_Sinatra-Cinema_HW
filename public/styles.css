@@ -36,3 +36,12 @@ li {
     border-bottom: 1px solid var(--dark-colour);
     width: 20%;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: var(--dark-colour);
+}

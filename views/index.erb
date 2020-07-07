@@ -1,6 +1,6 @@
 <h3>List of Films</h3>
 <ul> 
     <% for film in @films %>
-    <li><%= film.title %>
+    <li><a href="/<%=film.title%>"><%= film.title %>
     <% end %>
 </ul>

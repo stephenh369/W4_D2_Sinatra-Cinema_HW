@@ -18,15 +18,21 @@ body {
     
 }
 
-
-h1 {
-    margin-top: 10%;
+h1, h3, h4 {
     text-align: center;
 }
 
+h1 {
+    margin-top: 10%;
+}
+
 h3, h4 {
-    margin-top: 10px;
-    text-align: center;
+    margin-top: 5%;
+}
+
+.index-link {
+    border-top: 1px solid var(--dark-colour);
+    padding-top: 10px;
 }
 
 ul {

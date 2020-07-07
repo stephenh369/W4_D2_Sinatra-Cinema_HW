@@ -1,0 +1,38 @@
+:root {
+    --main-colour: steelblue;
+    --alt-colour: coral;
+    --light-colour: #f4f4f4;
+    --dark-colour: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-colour);
+    color: black;
+    
+}
+
+h3 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+ul {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--dark-colour);
+    width: 20%;
+}
